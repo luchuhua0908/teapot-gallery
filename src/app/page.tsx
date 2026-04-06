@@ -1,3 +1,4 @@
+export const runtime = "edge";
 import AddTeapotModal from "@/components/AddTeapotModal";
 import { getDb } from "@/db";
 import { teapots } from "@/db/schema";
