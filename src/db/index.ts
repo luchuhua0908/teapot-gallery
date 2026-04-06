@@ -3,7 +3,7 @@ import * as schema from './schema';
 import { getRequestContext } from '@cloudflare/next-on-pages';
 
 export function getDb() {
-  const ctx = getRequestContext();
+  const ctx = getRequestContext() as any;
   if (ctx && ctx.env && ctx.env.DB) {
      return drizzle(ctx.env.DB, { schema });
   }
