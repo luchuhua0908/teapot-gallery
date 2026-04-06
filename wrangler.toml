@@ -7,4 +7,4 @@ pages_build_output_dir = ".vercel/output/static"
 [[d1_databases]]
 binding = "DB"
 database_name = "teapot-db"
-database_id = "1354e189-59aa-4bbc-862d-4cde22c726cb" # We will replace this when deploying
+database_id = "bdbaa005-e47d-4bc1-a538-246539f68c6b" # We will replace this when deploying
